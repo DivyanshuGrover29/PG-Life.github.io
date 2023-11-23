@@ -1,0 +1,27 @@
+<form method = "post" action = "submit.php">
+    <input type="text" name="email"/>
+    <input type="password" name="password"/> <br/>
+ 
+    <input type="radio" name="gender" value="male"/> Male
+    <input type="radio" name="gender" value="female"/> Female
+    <input type="radio" name="gender" value="other"/> Other <br/>
+ 
+    <input type="checkbox" name="interest" value="cricket"/> Cricket
+    <input type="checkbox" name="interest" value="football"/> Football <br/>
+    <input type="checkbox" name="interest" value="basketball"/> Basketball <br/>
+    <input type="checkbox" name="interest" value="chess"/> Chess <br/>
+ 
+    <select name="city">
+        <option value="Kolkata"> Kolkata </option>
+        <option value="Delhi"> Delhi </option>
+        <option value="Mumbai"> Mumbai </option>
+        <option value="Bangalore"> Bangalore </option>
+        <option value="Outstation"> Outstation</option>
+    </select> <br/>
+ 
+    <textarea name="address" rows="6" cols="50">
+        Write your address...
+    </textarea> <br/>
+ 
+    <input type="submit" name="submit" value="Submit"/>    
+</form>
